@@ -1,5 +1,4 @@
 import sys
-import shutil
 import subprocess
 
 from PyQt6.QtCore import QProcess, Qt
@@ -19,6 +18,7 @@ from PyQt6.QtWidgets import (
 
 from opsle_installer.apt import apt_available, installed_packages, package_install_command
 from opsle_installer.catalog import load_catalog
+from opsle_installer.terminal import find_terminal
 
 
 class SoftwareInstaller(QMainWindow):
@@ -106,9 +106,11 @@ class SoftwareInstaller(QMainWindow):
         if self.operation_running or not apt_available():
             return
 
-        terminal = shutil.which("x-terminal-emulator")
+        terminal = find_terminal()
         if not terminal:
-            QMessageBox.critical(self, "Terminal not found", "Install an XFCE terminal emulator.")
+            QMessageBox.critical(
+                self, "Terminal not found", "Install Konsole or configure x-terminal-emulator."
+            )
             return
 
         selected = [

@@ -1,0 +1,13 @@
+{
+  "OPSLE system update": "OPSLE システム更新",
+  "Do not power off your computer.": "コンピューターの電源を切らないでください。",
+  "Checking software sources...": "ソフトウェアソースを確認しています...",
+  "Installing mandatory software updates...": "必須のソフトウェア更新をインストールしています...",
+  "Installing system updates...": "システム更新をインストールしています...",
+  "No mandatory update is due. Starting login...": "必須の更新はありません。ログインを開始します...",
+  "Mandatory updates are already complete. Starting login...": "必須の更新は完了しています。ログインを開始します...",
+  "No updates are configured. Starting login...": "更新は設定されていません。ログインを開始します...",
+  "Mandatory updates complete. Restarting...": "必須の更新が完了しました。再起動しています...",
+  "Updates failed. Login remains blocked; contact your administrator.": "更新に失敗しました。ログインはブロックされています。管理者にお問い合わせください。",
+  "Preview only — no updates will be installed. Esc closes; F5 replays.": "プレビューです。更新はインストールされません。Esc で閉じ、F5 で再生します。"
+}

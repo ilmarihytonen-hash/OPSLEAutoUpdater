@@ -1,4 +1,5 @@
 import logging
+import shutil
 import subprocess
 import sys
 from datetime import date, datetime, timezone
@@ -7,6 +8,7 @@ from typing import TYPE_CHECKING
 
 from opsle_installer.apt import installed_packages, package_install_command, update_command
 from opsle_installer.config import load_config
+from opsle_installer.localization import translate
 from opsle_installer.policy import fetch_update_policy
 
 
@@ -19,20 +21,40 @@ if TYPE_CHECKING:
 
 def splash_progress(progress: int, message: str) -> None:
     progress = min(100, max(0, progress))
+    status = f"{translate('Do not power off your computer.')} {translate(message)}"
+    if not plymouth_is_active():
+        LOG.info("%s (Plymouth is not active; continuing without splash.)", status)
+        return
     try:
         subprocess.run(
             [
                 "plymouth",
                 "system-update",
                 f"--progress={progress / 100:.2f}",
-                f"--status={message}",
+                f"--status={status}",
             ],
             check=False,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
         )
     except OSError:
-        LOG.info("%s", message)
+        LOG.info("%s", status)
+
+
+def plymouth_is_active() -> bool:
+    executable = shutil.which("plymouth")
+    if executable is None:
+        return False
+    try:
+        result = subprocess.run(
+            [executable, "--ping"],
+            check=False,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+    except OSError:
+        return False
+    return result.returncode == 0
 
 
 def parse_apt_progress(line: str) -> int | None:

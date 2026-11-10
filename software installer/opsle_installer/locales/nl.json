@@ -1,0 +1,13 @@
+{
+  "OPSLE system update": "OPSLE-systeemupdate",
+  "Do not power off your computer.": "Schakel uw computer niet uit.",
+  "Checking software sources...": "Softwarebronnen controleren...",
+  "Installing mandatory software updates...": "Verplichte software-updates installeren...",
+  "Installing system updates...": "Systeemupdates installeren...",
+  "No mandatory update is due. Starting login...": "Geen verplichte update vereist. Aanmelden wordt gestart...",
+  "Mandatory updates are already complete. Starting login...": "Verplichte updates zijn al voltooid. Aanmelden wordt gestart...",
+  "No updates are configured. Starting login...": "Er zijn geen updates ingesteld. Aanmelden wordt gestart...",
+  "Mandatory updates complete. Restarting...": "Verplichte updates voltooid. Opnieuw opstarten...",
+  "Updates failed. Login remains blocked; contact your administrator.": "Updates mislukt. Aanmelden blijft geblokkeerd; neem contact op met uw beheerder.",
+  "Preview only — no updates will be installed. Esc closes; F5 replays.": "Alleen voorbeeld — er worden geen updates geïnstalleerd. Esc sluit; F5 herhaalt."
+}

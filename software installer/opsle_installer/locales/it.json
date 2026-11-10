@@ -1,0 +1,13 @@
+{
+  "OPSLE system update": "Aggiornamento del sistema OPSLE",
+  "Do not power off your computer.": "Non spegnere il computer.",
+  "Checking software sources...": "Controllo delle fonti software...",
+  "Installing mandatory software updates...": "Installazione degli aggiornamenti software obbligatori...",
+  "Installing system updates...": "Installazione degli aggiornamenti di sistema...",
+  "No mandatory update is due. Starting login...": "Nessun aggiornamento obbligatorio previsto. Avvio della sessione...",
+  "Mandatory updates are already complete. Starting login...": "Gli aggiornamenti obbligatori sono già completi. Avvio della sessione...",
+  "No updates are configured. Starting login...": "Nessun aggiornamento configurato. Avvio della sessione...",
+  "Mandatory updates complete. Restarting...": "Aggiornamenti obbligatori completati. Riavvio...",
+  "Updates failed. Login remains blocked; contact your administrator.": "Aggiornamento non riuscito. L’accesso resta bloccato; contatta l’amministratore.",
+  "Preview only — no updates will be installed. Esc closes; F5 replays.": "Solo anteprima: non verrà installato alcun aggiornamento. Esc chiude; F5 riavvia."
+}

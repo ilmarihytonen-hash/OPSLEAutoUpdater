@@ -7,7 +7,13 @@ from pathlib import Path
 from unittest.mock import call, patch
 
 from opsle_installer.policy import UpdatePolicy
-from opsle_installer.updater import parse_apt_progress, run_apt_step, run_updates
+from opsle_installer.updater import (
+    parse_apt_progress,
+    plymouth_is_active,
+    run_apt_step,
+    run_updates,
+    splash_progress,
+)
 
 
 def make_config(**overrides: object) -> object:
@@ -148,6 +154,41 @@ class UpdaterTests(unittest.TestCase):
         self.assertEqual(parse_apt_progress("pmstatus:libc6:42:Unpacking"), 42)
         self.assertEqual(parse_apt_progress("dlstatus:https://mirror/pkg:75"), 75)
         self.assertIsNone(parse_apt_progress("status:libc6:Installed"))
+
+    def test_splash_status_includes_localized_power_warning(self) -> None:
+        with (
+            patch("opsle_installer.localization.get_system_language", return_value="fr"),
+            patch("opsle_installer.updater.plymouth_is_active", return_value=True),
+            patch("opsle_installer.updater.subprocess.run") as run,
+        ):
+            splash_progress(25, "Installing system updates...")
+
+        command = run.call_args.args[0]
+        self.assertIn(
+            "--status=N’éteignez pas votre ordinateur. Installation des mises à jour du système...",
+            command,
+        )
+
+    def test_splash_is_skipped_when_plymouth_is_not_active(self) -> None:
+        with (
+            patch("opsle_installer.updater.plymouth_is_active", return_value=False),
+            patch("opsle_installer.updater.subprocess.run") as run,
+        ):
+            splash_progress(25, "Installing system updates...")
+        run.assert_not_called()
+
+    def test_detects_plymouth_runtime_state(self) -> None:
+        completed = subprocess.CompletedProcess(args=["plymouth", "--ping"], returncode=0)
+        with (
+            patch("opsle_installer.updater.shutil.which", return_value="/usr/bin/plymouth"),
+            patch("opsle_installer.updater.subprocess.run", return_value=completed) as run,
+        ):
+            self.assertTrue(plymouth_is_active())
+        run.assert_called_once()
+
+    def test_reports_plymouth_inactive_when_executable_is_missing(self) -> None:
+        with patch("opsle_installer.updater.shutil.which", return_value=None):
+            self.assertFalse(plymouth_is_active())
 
     def test_apt_progress_is_monotonic_and_options_precede_package_separator(self) -> None:
         process = type("Process", (), {"stdout": io.StringIO(
