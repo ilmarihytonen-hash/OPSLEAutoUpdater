@@ -1,0 +1,22 @@
+software:
+  - name: Firefox ESR
+    package: firefox-esr
+    description: Web browser for coursework and online resources.
+  - name: LibreOffice
+    package: libreoffice
+    description: Office suite for documents, spreadsheets, and presentations.
+  - name: VLC media player
+    package: vlc
+    description: Media player for common audio and video formats.
+  - name: Geany
+    package: geany
+    description: Lightweight code editor for learning and editing source files.
+  - name: Thonny
+    package: thonny
+    description: Beginner-friendly Python development environment.
+  - name: GIMP
+    package: gimp
+    description: Image editor for creating and editing graphics.
+  - name: Inkscape
+    package: inkscape
+    description: Vector graphics editor for diagrams and illustrations.

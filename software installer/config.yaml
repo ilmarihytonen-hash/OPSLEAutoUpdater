@@ -1,0 +1,15 @@
+updater:
+  enabled: true
+  run_before_login: true
+  # auto detects the currently configured display manager.
+  # Supported explicit choices: lightdm, gdm, sddm.
+  display_manager: auto
+  # After mandatory_after, upgrade all packages available from configured APT sources.
+  update_all_packages: true
+  block_login_on_failure: true
+  # Set to a trusted HTTPS JSON endpoint to enable required package updates.
+  # Expected response: {"version": 1, "mandatory_after": "YYYY-MM-DD", "required_packages": []}
+  policy_url: ""
+  # Add the Debian package name here when installing OPSLE Installer as a
+  # signed APT package and you want to explicitly manage its self-updates.
+  managed_packages: []

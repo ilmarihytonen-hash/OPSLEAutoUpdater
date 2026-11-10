@@ -1,0 +1,13 @@
+[Unit]
+Description=OPSLE pre-login system update
+Wants=network-online.target
+After=network-online.target apt-daily.service apt-daily-upgrade.service plymouth-start.service
+Before=display-manager.service plymouth-quit.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/opsle-installer
+ExecStartPre=-/usr/bin/plymouth show-splash
+ExecStart=/usr/bin/python3 -m opsle_installer.updater
+ExecStartPost=-/usr/bin/plymouth quit
+TimeoutStartSec=infinity
