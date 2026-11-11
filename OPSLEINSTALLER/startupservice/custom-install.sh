@@ -17,4 +17,5 @@ set -eu
 #   DEBIAN_FRONTEND
 #
 # Do not put passwords or other secrets in this script.
-
+apt update
+apt install -y dolphin snapd git ssh flatpak kdeconnect syncthing bitwarden ufw fail2ban openssh-server logwatch sysstat
