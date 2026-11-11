@@ -1,0 +1,36 @@
+- id: firefox
+  name: Firefox
+  description: Browse the web with a privacy-focused, open-source browser.
+  packages:
+    - firefox-esr
+  recommended: true
+- id: libreoffice
+  name: LibreOffice
+  description: Create documents, spreadsheets, and presentations.
+  packages:
+    - libreoffice
+  recommended: true
+- id: vlc
+  name: VLC media player
+  description: Play most audio and video files.
+  packages:
+    - vlc
+  recommended: true
+- id: gimp
+  name: GIMP
+  description: Edit photos and create images.
+  packages:
+    - gimp
+  recommended: false
+- id: thunderbird
+  name: Thunderbird
+  description: Manage email and calendars in one place.
+  packages:
+    - thunderbird
+  recommended: false
+- id: git
+  name: Git
+  description: Track changes in projects and work with developers.
+  packages:
+    - git
+  recommended: false

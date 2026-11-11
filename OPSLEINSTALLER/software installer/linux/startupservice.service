@@ -1,0 +1,17 @@
+[Unit]
+Description=OPSLE first-boot setup wizard
+After=display-manager.service
+ConditionPathExists=/opt/startupservice/setup.py
+ConditionPathExists=!/var/lib/startupservice/setup-complete
+
+[Service]
+Type=simple
+EnvironmentFile=-/etc/default/startupservice
+Environment=DISPLAY=:0
+Environment=XDG_CONFIG_HOME=/var/lib/startupservice/config
+WorkingDirectory=/opt/startupservice
+ExecStart=/usr/bin/python3 /opt/startupservice/setup.py
+Restart=no
+
+[Install]
+WantedBy=graphical.target

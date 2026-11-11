@@ -1,0 +1,13 @@
+{
+  "OPSLE system update": "OPSLE-järjestelmäpäivitys",
+  "Do not power off your computer.": "Älä sammuta tietokonetta.",
+  "Checking software sources...": "Tarkistetaan ohjelmistolähteitä...",
+  "Installing mandatory software updates...": "Asennetaan pakollisia ohjelmistopäivityksiä...",
+  "Installing system updates...": "Asennetaan järjestelmäpäivityksiä...",
+  "No mandatory update is due. Starting login...": "Pakollisia päivityksiä ei ole. Käynnistetään kirjautuminen...",
+  "Mandatory updates are already complete. Starting login...": "Pakolliset päivitykset on jo tehty. Käynnistetään kirjautuminen...",
+  "No updates are configured. Starting login...": "Päivityksiä ei ole määritetty. Käynnistetään kirjautuminen...",
+  "Mandatory updates complete. Restarting...": "Pakolliset päivitykset valmiit. Käynnistetään uudelleen...",
+  "Updates failed. Login remains blocked; contact your administrator.": "Päivitykset epäonnistuivat. Kirjautuminen on estetty; ota yhteyttä järjestelmänvalvojaan.",
+  "Preview only — no updates will be installed. Esc closes; F5 replays.": "Esikatselu — päivityksiä ei asenneta. Esc sulkee; F5 toistaa."
+}

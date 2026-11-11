@@ -1,0 +1,13 @@
+{
+  "OPSLE system update": "OPSLE 系统更新",
+  "Do not power off your computer.": "请勿关闭电脑电源。",
+  "Checking software sources...": "正在检查软件源...",
+  "Installing mandatory software updates...": "正在安装必需的软件更新...",
+  "Installing system updates...": "正在安装系统更新...",
+  "No mandatory update is due. Starting login...": "当前没有必需的更新。正在启动登录...",
+  "Mandatory updates are already complete. Starting login...": "必需的更新已完成。正在启动登录...",
+  "No updates are configured. Starting login...": "未配置更新。正在启动登录...",
+  "Mandatory updates complete. Restarting...": "必需的更新已完成。正在重新启动...",
+  "Updates failed. Login remains blocked; contact your administrator.": "更新失败。登录仍被阻止；请联系管理员。",
+  "Preview only — no updates will be installed. Esc closes; F5 replays.": "仅供预览，不会安装更新。按 Esc 关闭，按 F5 重播。"
+}

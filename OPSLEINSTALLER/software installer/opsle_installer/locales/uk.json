@@ -1,0 +1,13 @@
+{
+  "OPSLE system update": "Оновлення системи OPSLE",
+  "Do not power off your computer.": "Не вимикайте комп’ютер.",
+  "Checking software sources...": "Перевірка джерел програмного забезпечення...",
+  "Installing mandatory software updates...": "Встановлення обов’язкових оновлень програмного забезпечення...",
+  "Installing system updates...": "Встановлення системних оновлень...",
+  "No mandatory update is due. Starting login...": "Обов’язкові оновлення не потрібні. Запуск входу в систему...",
+  "Mandatory updates are already complete. Starting login...": "Обов’язкові оновлення вже встановлено. Запуск входу в систему...",
+  "No updates are configured. Starting login...": "Оновлення не налаштовано. Запуск входу в систему...",
+  "Mandatory updates complete. Restarting...": "Обов’язкові оновлення встановлено. Перезавантаження...",
+  "Updates failed. Login remains blocked; contact your administrator.": "Не вдалося встановити оновлення. Вхід заблоковано; зверніться до адміністратора.",
+  "Preview only — no updates will be installed. Esc closes; F5 replays.": "Попередній перегляд — оновлення не встановлюються. Esc закриває; F5 запускає знову."
+}

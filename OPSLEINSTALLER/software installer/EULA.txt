@@ -1,0 +1,177 @@
+OSPLE - Software Licensing, Usage and Privacy Notice
+Open-Source Project for Learning and Education (OSPLE)
+Document Version: 1.0
+Effective Date: 9.11.2026
+Last Updated: 9.11.2026
+
+1. Introduction and Scope
+This document describes the licensing, usage, privacy, warranty, and other general conditions applicable to software projects developed and distributed as part of the Open-Source Project for Learning and Education (OSPLE) ecosystem.
+OSPLE is an open-source software ecosystem primarily focused on developing software for educational, learning, research, and general-purpose applications.
+The purpose of this document is to provide users with information about their rights and responsibilities when using OSPLE software.
+This document is supplementary to the applicable software licenses. It does not replace, override, or restrict the rights granted to users under those licenses.
+2. Software Licensing
+Unless an individual project explicitly states otherwise, software developed and maintained as part of the OSPLE ecosystem is distributed under the GNU General Public License, version 3 (GNU GPLv3).
+The full text of the GNU GPLv3 is available at:
+https://www.gnu.org/licenses/gpl-3.0.html
+The GNU GPLv3 grants users various freedoms, including the right to:
+* Use the software for any purpose.
+* Study how the software works.
+* Modify the software to suit their needs.
+* Copy and redistribute the original software.
+* Distribute modified versions of the software.
+* Share modified versions with other users.
+* Use and distribute the software for commercial purposes.
+These freedoms are subject to the conditions and obligations specified in the GNU GPLv3.
+Users distributing original or modified versions of GPLv3-licensed software must comply with the applicable licensing requirements, including requirements concerning copyright notices, license notices, source code availability, and other applicable distribution conditions.
+Nothing in this document is intended to impose additional restrictions on the rights granted by the GNU GPLv3.
+3. Intended Purpose and Permitted Use
+OSPLE software is primarily developed for educational, learning, research, and general-purpose applications.
+However, users are not restricted to these purposes.
+OSPLE software may be used for, but is not limited to:
+* Educational and academic activities.
+* Personal projects and personal use.
+* Business and commercial applications.
+* Research and development.
+* Software development and experimentation.
+* Institutional and organizational use.
+* Private and public deployments.
+Users are responsible for ensuring that their activities comply with applicable laws and regulations.
+OSPLE does not guarantee that its software is suitable for every particular application, environment, or purpose.
+4. Privacy and Data Collection
+OSPLE aims to respect user privacy and minimize unnecessary data collection.
+Unless an individual project explicitly documents otherwise, OSPLE software is designed not to transmit personal information, telemetry, usage statistics, or other user data to remote servers by default.
+4.1 Local Data Storage
+Data generated or processed by OSPLE software is generally stored locally on the user's device or within the user's own network.
+OSPLE developers do not automatically receive access to locally stored user data.
+4.2 External Communications
+Some OSPLE projects may communicate with external services when necessary for their functionality.
+Examples may include:
+* Software update checks.
+* External APIs.
+* Network services.
+* User-configured integrations.
+* Optional diagnostic or error-reporting services.
+Where applicable, individual projects should document their external network communications and explain what information may be transmitted.
+4.3 Diagnostic Information
+OSPLE developers may request diagnostic information, error reports, or application logs when investigating bugs or technical problems.
+Users are not required to voluntarily submit such information unless a separate, clearly disclosed arrangement applies.
+Users should review diagnostic information before submitting it, as logs may contain personal information, system details, or other potentially sensitive data.
+4.4 User Responsibility
+Users are responsible for configuring their software, network connections, integrations, and external services according to their privacy and security requirements.
+OSPLE cannot guarantee the privacy practices of third-party services that users independently choose to connect to.
+5. Security and Software Limitations
+OSPLE developers aim to develop and maintain software responsibly and to address reported bugs and security vulnerabilities when reasonably possible.
+However, OSPLE does not guarantee that its software:
+* Is completely free of bugs or vulnerabilities.
+* Will operate without interruptions or errors.
+* Will be compatible with every operating system or hardware configuration.
+* Will remain compatible with every future software update.
+* Will meet every user's security or operational requirements.
+Users are encouraged to:
+* Keep their software and dependencies updated.
+* Obtain software from trusted distribution sources.
+* Review software configuration before deployment.
+* Maintain appropriate backups.
+* Apply suitable security measures to their devices and networks.
+Security-related issues may be reported to the appropriate OSPLE project maintainers through their officially designated communication channels.
+6. Warranty Disclaimer
+Unless explicitly stated otherwise in a separate written agreement, OSPLE software is provided on an "AS IS" basis.
+OSPLE software is distributed without any warranty, to the maximum extent permitted by applicable law.
+This includes, but is not limited to, the absence of implied warranties of:
+* MERCHANTABILITY.
+* FITNESS FOR A PARTICULAR PURPOSE.
+* NON-INFRINGEMENT.
+* UNINTERRUPTED OPERATION.
+* ERROR-FREE OPERATION.
+OSPLE developers do not guarantee that the software will meet the user's expectations or requirements.
+The warranty disclaimer in this document supplements the applicable warranty provisions of the GNU GPLv3 and does not remove any rights that cannot legally be excluded.
+7. Limitation of Liability
+To the maximum extent permitted by applicable law, OSPLE developers, contributors, maintainers, and project administrators shall not be held liable for damages arising from the use, inability to use, modification, or distribution of OSPLE software.
+This includes, without limitation:
+* Loss or corruption of data.
+* Damage to hardware or other devices.
+* Software failures or system malfunctions.
+* Business interruptions.
+* Loss of revenue, profits, or business opportunities.
+* Security incidents resulting from the use or configuration of the software.
+* Other direct or indirect damages.
+Users are responsible for maintaining backups and taking reasonable precautions to protect their systems and data.
+Nothing in this section excludes or limits liability where such exclusion or limitation is prohibited by applicable law.
+8. Third-Party Software and Dependencies
+OSPLE projects may include, depend on, integrate with, or distribute software, libraries, frameworks, assets, or other components developed by third parties.
+Such components may be distributed under licenses different from the GNU GPLv3.
+Examples include:
+* MIT License.
+* Apache License 2.0.
+* GNU Lesser General Public License (LGPL).
+* BSD licenses.
+* Other open-source or proprietary licenses.
+Each third-party component remains subject to its applicable licensing terms.
+Users are responsible for respecting the license conditions applicable to third-party components when using, modifying, or distributing them.
+OSPLE does not claim ownership of third-party software or intellectual property.
+Where reasonably applicable, individual OSPLE projects should provide third-party license notices, copyright information, and acknowledgements.
+If a third-party developer or copyright holder has concerns regarding the inclusion or distribution of their work in an OSPLE project, they may contact the relevant OSPLE project maintainers.
+9. Commercial Use, Monetization, and Distribution
+OSPLE software is open-source software distributed under the applicable project licenses.
+Users are permitted to:
+* Sell copies of OSPLE software.
+* Distribute OSPLE software commercially.
+* Include OSPLE software in commercial products.
+* Offer paid installation and configuration services.
+* Provide paid technical support.
+* Modify and sell modified versions.
+* Use OSPLE software in commercial and business environments.
+* Distribute OSPLE software as part of larger software collections.
+All such activities must comply with the applicable software licenses, including the GNU GPLv3 where applicable.
+OSPLE developers do not require separate permission for activities already permitted by the applicable open-source licenses.
+However, commercial use of OSPLE names, logos, trademarks, or other protected branding is a separate matter and may be subject to applicable trademark rights and branding guidelines.
+10. OSPLE Name, Logos, and Branding
+The OSPLE name, logos, visual identity, and other branding elements may be protected by applicable intellectual property and trademark laws.
+The software licenses do not automatically grant permission to use OSPLE branding in ways that imply official endorsement, affiliation, or authorization.
+Users may accurately identify OSPLE software when referring to, distributing, reviewing, or discussing it.
+However, users must not falsely represent themselves, their products, or their services as officially developed, maintained, endorsed, or supported by OSPLE.
+Modified versions should not be presented as official OSPLE releases unless authorized by the relevant project maintainers.
+This section concerns branding and trademark rights only. It does not restrict the rights to use, modify, or distribute GPLv3-licensed software.
+11. Contributions and Community Participation
+Contributions to OSPLE projects may include source code, documentation, bug reports, translations, suggestions, and other improvements.
+Unless a project specifies a different contribution arrangement, contributions intended for inclusion in a GPLv3-licensed project must be submitted under terms compatible with that project's licensing requirements.
+By submitting a contribution, contributors must ensure that:
+* They have the legal right to submit the contribution.
+* The contribution does not knowingly infringe third-party intellectual property rights.
+* Any applicable third-party licensing conditions are disclosed.
+* They do not knowingly submit malicious code or intentionally harmful modifications.
+Submitting a contribution does not automatically transfer ownership of the contribution to OSPLE.
+Copyright ownership and licensing permissions remain subject to applicable law and any separate written contributor agreements.
+12. Software Updates and Maintenance
+OSPLE developers may release software updates, patches, bug fixes, improvements, or new versions of their projects.
+OSPLE does not guarantee that:
+* Every project will receive continuous maintenance.
+* Updates will be released according to a particular schedule.
+* Older versions will remain supported indefinitely.
+* Every reported issue will be resolved.
+* Future versions will retain all existing features.
+Individual projects may establish their own maintenance schedules, support periods, and release policies.
+Users are encouraged to monitor official project repositories and announcements for relevant updates.
+13. Changes to This Document
+OSPLE may update this document when necessary to reflect changes in project policies, software practices, privacy practices, or applicable legal requirements.
+The latest version should be published through an official OSPLE communication channel or project website.
+Updates to this document do not retroactively remove rights already granted under applicable open-source software licenses.
+Any changes to the actual software licensing conditions must be made by the relevant copyright holders and communicated through appropriate license notices.
+14. Contact and Reporting
+Questions, concerns, bug reports, licensing inquiries, and other matters relating to OSPLE projects may be directed to the relevant project maintainers.
+Users should use the official communication channels designated by the individual OSPLE project.
+For third-party licensing concerns, copyright claims, or requests regarding intellectual property, users should provide sufficient information to identify the affected project and component.
+15. Applicable Law and Legal Rights
+This document is intended to operate alongside applicable copyright, intellectual property, privacy, consumer protection, and other relevant laws.
+Nothing in this document is intended to exclude, restrict, or waive any mandatory rights or protections that users are entitled to under applicable law.
+The applicable software license governs the permissions and obligations associated with the use, modification, and distribution of the software.
+16. Final Provisions
+This document provides general information about the OSPLE ecosystem and its software-related policies.
+Where a provision of this document conflicts with rights granted under an applicable open-source software license, that provision shall not be interpreted as restricting those rights.
+Individual OSPLE projects may provide additional documentation, privacy notices, licensing information, and project-specific conditions where appropriate.
+If any provision of this document is found to be invalid or unenforceable under applicable law, the remaining provisions shall continue to apply to the extent legally permitted.
+
+Open-Source Project for Learning and Education (OSPLE)
+Open-source software for learning, education, research, and general-purpose use.
+GNU GPLv3: https://www.gnu.org/licenses/gpl-3.0.html
+

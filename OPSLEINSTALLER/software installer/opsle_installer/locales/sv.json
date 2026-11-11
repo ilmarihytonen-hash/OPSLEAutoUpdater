@@ -1,0 +1,13 @@
+{
+  "OPSLE system update": "OPSLE-systemuppdatering",
+  "Do not power off your computer.": "Stäng inte av datorn.",
+  "Checking software sources...": "Kontrollerar programvarukällor...",
+  "Installing mandatory software updates...": "Installerar obligatoriska programuppdateringar...",
+  "Installing system updates...": "Installerar systemuppdateringar...",
+  "No mandatory update is due. Starting login...": "Ingen obligatorisk uppdatering behövs. Startar inloggningen...",
+  "Mandatory updates are already complete. Starting login...": "Obligatoriska uppdateringar är redan klara. Startar inloggningen...",
+  "No updates are configured. Starting login...": "Inga uppdateringar är konfigurerade. Startar inloggningen...",
+  "Mandatory updates complete. Restarting...": "Obligatoriska uppdateringar klara. Startar om...",
+  "Updates failed. Login remains blocked; contact your administrator.": "Uppdateringen misslyckades. Inloggningen är fortfarande blockerad; kontakta administratören.",
+  "Preview only — no updates will be installed. Esc closes; F5 replays.": "Endast förhandsvisning — inga uppdateringar installeras. Esc stänger; F5 spelar upp igen."
+}

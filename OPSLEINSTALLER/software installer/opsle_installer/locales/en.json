@@ -1,0 +1,13 @@
+{
+  "OPSLE system update": "OPSLE system update",
+  "Do not power off your computer.": "Do not power off your computer.",
+  "Checking software sources...": "Checking software sources...",
+  "Installing mandatory software updates...": "Installing mandatory software updates...",
+  "Installing system updates...": "Installing system updates...",
+  "No mandatory update is due. Starting login...": "No mandatory update is due. Starting login...",
+  "Mandatory updates are already complete. Starting login...": "Mandatory updates are already complete. Starting login...",
+  "No updates are configured. Starting login...": "No updates are configured. Starting login...",
+  "Mandatory updates complete. Restarting...": "Mandatory updates complete. Restarting...",
+  "Updates failed. Login remains blocked; contact your administrator.": "Updates failed. Login remains blocked; contact your administrator.",
+  "Preview only — no updates will be installed. Esc closes; F5 replays.": "Preview only — no updates will be installed. Esc closes; F5 replays."
+}
